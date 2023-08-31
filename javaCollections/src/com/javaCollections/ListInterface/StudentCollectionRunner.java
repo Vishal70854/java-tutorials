@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 //sorts the Student class in ascending order based on it
-class AsscendingStudentComparator implements Comparator<Student> {
+class AscendingStudentComparator implements Comparator<Student> {
 
 	@Override
 	public int compare(Student student1, Student student2) {
@@ -52,7 +52,7 @@ public class StudentCollectionRunner {
 		Collections.sort(studentsAL, new DescendingStudentComparator()); // way2
 		System.out.println("descending - " + studentsAL);
 		// another approach for sorting is studentsAL.sort(pass the comparator)
-		studentsAL.sort(new AsscendingStudentComparator()); // way3
+		studentsAL.sort(new AscendingStudentComparator()); // way3
 		System.out.println("Ascending by arraylist sortmethod - " + studentsAL);
 	}
 

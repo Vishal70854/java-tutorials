@@ -20,7 +20,10 @@ public class QueueOperations {
 		// in PriorityQueue order for the elements is by default ascending order
 		// if we have new LinkedList<>() or ArrayList<> for type Queue then
 		// order is not maintained here. it will be stored as given by user
-
+		// here we have passed new StringLengthComparator() i.e constructor of
+		// comparator
+		// to sort priority elements in order of length of strings. by default it is
+		// ascending
 		Queue<String> queue = new PriorityQueue<String>(new StringLengthComparator());
 
 		// add multiple elements in queue by addAll()
