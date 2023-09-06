@@ -12,7 +12,7 @@ class Amount {
 		this.amount = amount;
 	}
 
-	// throws is uded in the signature of a method to indicate that this method
+	// throws is used in the signature of a method to indicate that this method
 	// might throw
 	// one of the listed type exceptions.
 	public void add(Amount that) throws CurrenciesDoNotMatchException { // checked exception
