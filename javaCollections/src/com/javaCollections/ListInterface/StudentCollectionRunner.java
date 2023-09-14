@@ -6,13 +6,14 @@ import java.util.Comparator;
 import java.util.List;
 
 //sorts the Student class in ascending order based on it
+// take Comparator<Student> of type Student object
 class AscendingStudentComparator implements Comparator<Student> {
 
 	@Override
 	public int compare(Student student1, Student student2) {
 		return student1.getId() - student2.getId(); // another way of getting ascending for Integer
 		// return Integer.compare(student1.getId(), student2.getId());// sorts based on
-		// id in descending
+		// id in ascending
 	}
 
 }

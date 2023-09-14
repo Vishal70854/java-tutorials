@@ -41,11 +41,11 @@ public class ListInterface {
 		List<String> wordsArrayList = new ArrayList<String>(words);// arraylist of words
 		System.out.println(wordsArrayList);
 
-		// create new ArrayList
+		// create new LinkedList
 		List<String> wordsLinkedList = new LinkedList<String>(words);// linkedlist of words
 		System.out.println(wordsLinkedList);
 
-		// create new ArrayList
+		// create new VectorList
 		List<String> wordsVector = new Vector<String>(words);// vector of words
 		System.out.println(wordsVector);
 
