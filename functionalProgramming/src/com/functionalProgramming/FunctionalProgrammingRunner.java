@@ -34,6 +34,7 @@ public class FunctionalProgrammingRunner {
 
 	/********** functional programming example using stream from here **********/
 	private static void printWithFP(List<String> list) {
+		// element -> System.out.println(element) this is lambda expression in java
 		list.stream().forEach(element -> System.out.println(element));
 	}
 
